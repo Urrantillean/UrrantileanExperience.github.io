@@ -1,0 +1,298 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&family=Roboto:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    font-family: "Google Sans","Roboto",Arial,sans-serif;
+    font-family: "Google Sans","Noto Naskh Arabic UI",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+li, a, button {
+    font-family: "Google Sans","Roboto",Arial,sans-serif;
+    font-family: "Google Sans","Noto Naskh Arabic UI",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.bussines {
+    margin: 0;
+    font-family: "Google Sans","Roboto",Arial,sans-serif;
+    font-family: "Google Sans","Noto Naskh Arabic UI",Arial,sans-serif;
+    color: #ffffff;
+    padding-right: 40%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #ffffffbe;
+}
+
+.body1 {
+  text-align: center;
+  color: rgb(71, 71, 71);
+  font-family: "Google Sans","Noto Naskh Arabic UI", Arial, sans-serif;
+  padding-top: 15%;
+}
+
+
+.body1 img {
+  margin: 3%;
+  text-align: center;
+  display: list-item;
+}
+
+.contribution {
+  width: 10%;
+  height: 60%;
+}
+
+.ceviche {
+  width: 10%;
+  height: 60%;
+  border-radius: 100%;
+  display: flex;
+}
+
+.quote {
+  position: relative;
+  font-size: x-large;
+  text-align: center;
+  color: rgb(71, 71, 71);
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.storytell1 {
+  color: #ffffff;
+  font-family: "Google Sans","Noto Naskh Arabic UI", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  z-index: -1; 
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+
+.storytell1 h1 {
+  position: absolute;
+  text-align: center;
+  padding: 40px 0 20px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.storytell1 h2 {
+  position: absolute;
+  text-align: center;
+  padding: 60px;
+  font-size: 30px;
+}
+
+.storytell1 h3 {
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 33%;
+}
+
+.storytell1 img {
+  width: 160vh;
+  height: 40vw;
+  object-fit: cover;
+  border-radius: 20px;
+  filter: brightness(80%);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.storytell1 img:hover {
+  transform: scale(1.1);
+  filter: brightness(70%);
+}
+
+#hero {
+  min-height: 100vh;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(80%);
+}
+
+main h1 {
+  font-size: 60px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Google Sans","Noto Naskh Arabic UI", Arial, sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 0 18px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+main h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Google Sans","Noto Naskh Arabic UI", Arial, sans-serif;
+  text-align: center;
+  margin: 0 0 12px;
+}
+
+.capa {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: #1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+}
+
+.d {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 15px;
+  margin: 0px 5px;
+  padding: 80px;
+  z-index: -1;
+}
+
+.d img {
+  width: 40vh;
+  height: 35vw;
+  border-radius: 10px;
+  object-fit: cover;
+  filter: brightness(80%);
+  transition: 0.5s;
+}
+
+.imagen,.imagen2,.imagen3,.imagen4 {
+  overflow: hidden;
+}
+
+.d img:hover {
+  transform: scale(1.1);
+  filter: brightness(40%);
+}
+
+.detail {
+  text-align: center;
+  color: #3c4043;
+  font-family: "Google Sans","Noto Naskh Arabic UI", Arial, sans-serif;
+  padding: 80px;
+}
+
+.detail img{
+  display: inline-block;
+  padding: 0 5px 10px;
+  width: 80vh;
+  height: 25vw;
+  border-radius: 20px;
+  object-fit: cover;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.detail img:hover {
+  filter: brightness(60%);
+}
+
+.padre {
+  text-align: justify;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.textdown h4 {
+  margin: 0 0 3px;
+  color: rgb(97, 153, 255);
+  font-size: small;
+}
+
+.textdown h3 {
+  margin: 0 0 6px;
+  padding: 0 4px 0 0;
+}
+.textdown h5 {
+  padding: 0 4px 0 0;
+}
+
+.body2 {
+  text-align: center;
+  color: rgb(71, 71, 71);
+  font-family: "Google Sans","Noto Naskh Arabic UI", Arial, sans-serif;
+}
+
+.ceviche2 {
+  width: 15%;
+  height: 20%;
+  text-align: center;
+  object-fit: fill;
+}
+
+.quote2 {
+  position: relative;
+  font-size: x-large;
+  text-align: center;
+  color: rgb(71, 71, 71);
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.gap-header {
+  text-align: center;
+  font-family: "Google Sans","Noto Naskh Arabic UI", Arial, sans-serif;
+  color: #1c1c1d;
+  margin: 0;
+  padding: 0;
+}
+
+.gap-header h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.gap-header p {
+  font-size: 20px;
+}
